@@ -75,3 +75,53 @@
         width: 600px;
     }
 }
+
+
+/*signup login form*/
+.signup{
+    width: 100%;
+    height: 100%;
+    /*background-image: linear-gradient(200deg, white, #34a45f);*/
+    background-image: url("resources/signupLogin.jpg");
+    background-size: cover;
+    position:absolute;
+}
+
+.signup h1{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: #ff7b00;
+    text-shadow: 2px 2px 3px rgb(162, 162, 162);
+}
+
+.form-container{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*button effects*/
+#submit-btn{
+    position: relative;
+    display: inline-flex;
+    padding: 5px 50px;
+    background:#f5841b;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    z-index: 1;
+}
+
+#submit-btn:hover{
+    background: #ff7b00;
+}
+
