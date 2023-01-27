@@ -2,7 +2,7 @@
   "name": "pusl3120_10748106",
   "description": "Fullstack Development Module Assignment",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./Controller/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
