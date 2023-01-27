@@ -55,7 +55,7 @@ app.post("/login",async(req,res)=>{
         //console.log(bcrypt_password_match)
 
         if(bcrypt_password_match == true){
-            res.redirect('/registrationUI.html')
+            res.redirect('/gameUI.html')
         }else{
             res.send('Incorrect Password')
         }
@@ -64,7 +64,7 @@ app.post("/login",async(req,res)=>{
         res.send('Email does not exists')
     }
     //res.send('logged in')
-    res.redirect('/registrationUI.html');
+    res.redirect('/gameUI.html');
 })
 
 app.listen(port,()=>{
