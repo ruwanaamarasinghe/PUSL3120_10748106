@@ -2,8 +2,8 @@ const express = require('express');
 const bodyparser = require('body-parser');
 const path = require('path');
 const port = 8080;
-const users_collection1 = require('./userdatabase/userdata');
-require("./userdatabase/mongoose_connection");
+const users_collection1 = require('../Database/userdata');
+require("../Database/mongoose_connection");
 const app = express();
 const bcrypt = require('bcryptjs')
 const console = require('console')
@@ -21,7 +21,7 @@ app.use(express.static(mainfolder))
 
 
 app.get("/register",(req,res)=>{
-    res.sendFile(mainfolder+"/registerationUI.html")
+    res.sendFile(mainfolder+"/registrationUI.html")
 })
 
 app.get("/login",(req,res)=>{
