@@ -12,6 +12,12 @@
     background-size:cover;
 }
 
+.logo{
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+
 .Container{
     position: fixed;
     width: 100%;
