@@ -13,9 +13,10 @@
 }
 
 .logo{
-    width: 100px;
+    width: 300px;
     height: auto;
-    align-items: center;
+    margin-top: 25%;
+    margin-left: 50%;
 }
 
 .Container{
