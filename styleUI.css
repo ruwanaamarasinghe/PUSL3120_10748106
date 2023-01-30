@@ -16,7 +16,8 @@
     width: 500px;
     height: auto;
     margin-top: 15%;
-    margin-left: 35%;
+    margin-left: 33.5%;
+    filter: drop-shadow(10px 5px 4px rgb(86, 85, 85));
 }
 
 .Container{
